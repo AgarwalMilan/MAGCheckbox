@@ -106,6 +106,7 @@
 				268C41AB211460B700A71885 /* Sources */,
 				268C41AC211460B700A71885 /* Frameworks */,
 				268C41AD211460B700A71885 /* Resources */,
+				38A972CDADCE9B58A5E3C72E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +163,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		38A972CDADCE9B58A5E3C72E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CheckboxDemo/Pods-CheckboxDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MAGCheckbox/MAGCheckbox.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MAGCheckbox.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckboxDemo/Pods-CheckboxDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F465FEC8799267614A25A26F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

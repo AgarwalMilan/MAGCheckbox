@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 144cc7f502b663e29fa46573693d2e969d90d005
+PODS:
+  - MAGCheckbox (0.0.1)
+
+DEPENDENCIES:
+  - MAGCheckbox
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MAGCheckbox
+
+SPEC CHECKSUMS:
+  MAGCheckbox: bc9e022753779257a9c04db3864fcb7498461d79
+
+PODFILE CHECKSUM: 0c268b9ace4b31bd2c6f0c0295115d38a21fe849
 
 COCOAPODS: 1.5.2

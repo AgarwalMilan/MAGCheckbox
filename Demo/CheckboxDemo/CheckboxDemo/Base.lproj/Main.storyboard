@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzJ-go-ajw" customClass="MAGCheckboxButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzJ-go-ajw" customClass="MAGCheckbox">
                                 <rect key="frame" x="32" y="120" width="28" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="28" id="fWq-3C-hLX"/>
@@ -33,7 +33,7 @@
                                     <action selector="btnToggleCheckbox1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zm8-f7-Xlb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8P-DD-wrA" customClass="MAGCheckboxButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8P-DD-wrA" customClass="MAGCheckbox">
                                 <rect key="frame" x="32" y="156" width="28" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="28" id="ECk-Ga-spl"/>
@@ -47,7 +47,7 @@
                                     <action selector="btnToggleCheckbox2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mxo-Vi-2Bk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlB-nW-vvh" customClass="MAGCheckboxButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlB-nW-vvh" customClass="MAGCheckbox">
                                 <rect key="frame" x="32" y="192" width="28" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="28" id="1Rv-l8-9aZ"/>
@@ -61,7 +61,7 @@
                                     <action selector="btnToggleCheckbox3Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHZ-T0-XJ4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frk-3M-peN" customClass="MAGCheckboxButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frk-3M-peN" customClass="MAGCheckbox">
                                 <rect key="frame" x="32" y="228" width="28" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="frk-3M-peN" secondAttribute="height" multiplier="1:1" id="bRg-xh-Fq2"/>

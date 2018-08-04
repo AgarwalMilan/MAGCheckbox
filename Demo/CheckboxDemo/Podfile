@@ -6,5 +6,5 @@ target 'CheckboxDemo' do
   # use_frameworks!
 
   # Pods for CheckboxDemo
-  #  pod 'MAGCheckbox'
+    pod 'MAGCheckbox'
 end

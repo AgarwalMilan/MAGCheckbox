@@ -18,7 +18,7 @@
     self.fillColor = self.fillColor ? self.fillColor : defaultBGColor;
     static UIImage *imgTick = nil;
     if(!imgTick){
-        imgTick = [UIImage imageNamed:@"ic_tick"];
+        imgTick = [[self class]loadImageFromResourceBundle:@"ic_tick"];
     }
     [self setImage:imgTick forState:UIControlStateSelected];
     self.layer.cornerRadius = self.bounds.size.width / 2;
@@ -26,12 +26,26 @@
 }
 
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect {
+ // Drawing code
+ }
+ */
++(NSBundle *)getResourcesBundle
+{
+    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle bundleForClass:[self class]] URLForResource:@"MAGCheckbox" withExtension:@"bundle"]];
+    return bundle;
 }
-*/
+
+
++(UIImage *)loadImageFromResourceBundle:(NSString *)imageName
+{
+    NSBundle *bundle = [[self class] getResourcesBundle];
+    NSString *imageFileName = [NSString stringWithFormat:@"%@.png",imageName];
+    UIImage *image = [UIImage imageNamed:imageFileName inBundle:bundle compatibleWithTraitCollection:nil];
+    return image;
+}
 
 -(void)setSelected:(BOOL)selected
 {
