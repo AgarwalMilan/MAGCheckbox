@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzJ-go-ajw" customClass="MAGCheckboxButton">
+                                <rect key="frame" x="32" y="120" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="fWq-3C-hLX"/>
+                                    <constraint firstAttribute="width" secondItem="SzJ-go-ajw" secondAttribute="height" multiplier="1:1" id="mJC-3a-Vhx"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9IU-2Z-A1w">
+                                <rect key="frame" x="76" y="120" width="275" height="28"/>
+                                <state key="normal" title="Tap me to toggle"/>
+                                <connections>
+                                    <action selector="btnToggleCheckbox1Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zm8-f7-Xlb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q8P-DD-wrA" customClass="MAGCheckboxButton">
+                                <rect key="frame" x="32" y="156" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="ECk-Ga-spl"/>
+                                    <constraint firstAttribute="width" secondItem="q8P-DD-wrA" secondAttribute="height" multiplier="1:1" id="Vmz-7A-GPa"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25g-xy-XWR">
+                                <rect key="frame" x="76" y="156" width="275" height="28"/>
+                                <state key="normal" title="Tap me to toggle"/>
+                                <connections>
+                                    <action selector="btnToggleCheckbox2Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mxo-Vi-2Bk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlB-nW-vvh" customClass="MAGCheckboxButton">
+                                <rect key="frame" x="32" y="192" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="28" id="1Rv-l8-9aZ"/>
+                                    <constraint firstAttribute="width" secondItem="FlB-nW-vvh" secondAttribute="height" multiplier="1:1" id="DCT-xG-upg"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQg-aH-cvA">
+                                <rect key="frame" x="76" y="192" width="275" height="28"/>
+                                <state key="normal" title="Tap me to toggle"/>
+                                <connections>
+                                    <action selector="btnToggleCheckbox3Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHZ-T0-XJ4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frk-3M-peN" customClass="MAGCheckboxButton">
+                                <rect key="frame" x="32" y="228" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="frk-3M-peN" secondAttribute="height" multiplier="1:1" id="bRg-xh-Fq2"/>
+                                    <constraint firstAttribute="width" constant="28" id="hBe-Tf-0xM"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xkw-3o-oz0">
+                                <rect key="frame" x="76" y="228" width="275" height="28"/>
+                                <state key="normal" title="Tap me to toggle"/>
+                                <connections>
+                                    <action selector="btnToggleCheckbox4Tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M4Z-uM-Bvq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="q8P-DD-wrA" firstAttribute="top" secondItem="SzJ-go-ajw" secondAttribute="bottom" constant="8" id="1zt-OK-ROS"/>
+                            <constraint firstItem="frk-3M-peN" firstAttribute="width" secondItem="frk-3M-peN" secondAttribute="height" multiplier="1:1" id="7V8-Jo-YzT"/>
+                            <constraint firstItem="SzJ-go-ajw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="B3L-QK-k9M"/>
+                            <constraint firstItem="FlB-nW-vvh" firstAttribute="top" secondItem="q8P-DD-wrA" secondAttribute="bottom" constant="8" id="Chr-1m-KSM"/>
+                            <constraint firstItem="SzJ-go-ajw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="DM0-rV-mvh"/>
+                            <constraint firstItem="q8P-DD-wrA" firstAttribute="leading" secondItem="SzJ-go-ajw" secondAttribute="leading" id="HqD-cR-Pgo"/>
+                            <constraint firstItem="9IU-2Z-A1w" firstAttribute="centerY" secondItem="SzJ-go-ajw" secondAttribute="centerY" id="Kco-OO-2cx"/>
+                            <constraint firstItem="9IU-2Z-A1w" firstAttribute="height" secondItem="SzJ-go-ajw" secondAttribute="height" id="Ki7-yz-rRS"/>
+                            <constraint firstItem="Xkw-3o-oz0" firstAttribute="leading" secondItem="frk-3M-peN" secondAttribute="trailing" constant="16" id="LYw-od-TTQ"/>
+                            <constraint firstItem="FlB-nW-vvh" firstAttribute="leading" secondItem="q8P-DD-wrA" secondAttribute="leading" id="Ld7-Wv-VWH"/>
+                            <constraint firstItem="hQg-aH-cvA" firstAttribute="leading" secondItem="FlB-nW-vvh" secondAttribute="trailing" constant="16" id="Lj8-Nu-RaP"/>
+                            <constraint firstItem="hQg-aH-cvA" firstAttribute="trailing" secondItem="25g-xy-XWR" secondAttribute="trailing" id="Mff-ra-rMF"/>
+                            <constraint firstItem="25g-xy-XWR" firstAttribute="trailing" secondItem="9IU-2Z-A1w" secondAttribute="trailing" id="Pxd-D0-47n"/>
+                            <constraint firstItem="frk-3M-peN" firstAttribute="leading" secondItem="FlB-nW-vvh" secondAttribute="leading" id="Qbj-Hu-6qK"/>
+                            <constraint firstItem="hQg-aH-cvA" firstAttribute="centerY" secondItem="FlB-nW-vvh" secondAttribute="centerY" id="Qhg-wY-Z0K"/>
+                            <constraint firstItem="FlB-nW-vvh" firstAttribute="width" secondItem="FlB-nW-vvh" secondAttribute="height" multiplier="1:1" id="Syb-B9-51P"/>
+                            <constraint firstItem="frk-3M-peN" firstAttribute="width" secondItem="frk-3M-peN" secondAttribute="height" multiplier="1:1" id="Y8N-eq-QRF"/>
+                            <constraint firstItem="25g-xy-XWR" firstAttribute="leading" secondItem="q8P-DD-wrA" secondAttribute="trailing" constant="16" id="egc-Ee-ikJ"/>
+                            <constraint firstItem="Xkw-3o-oz0" firstAttribute="height" secondItem="frk-3M-peN" secondAttribute="height" id="fTj-AS-fiH"/>
+                            <constraint firstItem="25g-xy-XWR" firstAttribute="height" secondItem="q8P-DD-wrA" secondAttribute="height" id="fVo-sq-kKQ"/>
+                            <constraint firstItem="Xkw-3o-oz0" firstAttribute="trailing" secondItem="hQg-aH-cvA" secondAttribute="trailing" id="lLh-dZ-ztc"/>
+                            <constraint firstItem="9IU-2Z-A1w" firstAttribute="leading" secondItem="SzJ-go-ajw" secondAttribute="trailing" constant="16" id="mjb-Zl-KXW"/>
+                            <constraint firstItem="Xkw-3o-oz0" firstAttribute="centerY" secondItem="frk-3M-peN" secondAttribute="centerY" id="o4N-II-oRT"/>
+                            <constraint firstItem="q8P-DD-wrA" firstAttribute="width" secondItem="q8P-DD-wrA" secondAttribute="height" multiplier="1:1" id="ouc-hq-vGF"/>
+                            <constraint firstItem="25g-xy-XWR" firstAttribute="centerY" secondItem="q8P-DD-wrA" secondAttribute="centerY" id="thq-nA-0zt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9IU-2Z-A1w" secondAttribute="trailing" constant="24" id="uDj-RG-S9w"/>
+                            <constraint firstItem="hQg-aH-cvA" firstAttribute="height" secondItem="FlB-nW-vvh" secondAttribute="height" id="xAw-6I-NS5"/>
+                            <constraint firstItem="frk-3M-peN" firstAttribute="top" secondItem="FlB-nW-vvh" secondAttribute="bottom" constant="8" id="zGr-oz-xKF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnCheckbox1" destination="SzJ-go-ajw" id="Dtv-0P-t7K"/>
+                        <outlet property="btnCheckbox2" destination="q8P-DD-wrA" id="Yr4-UH-83D"/>
+                        <outlet property="btnCheckbox3" destination="FlB-nW-vvh" id="zdj-QJ-ysi"/>
+                        <outlet property="btnCheckbox4" destination="frk-3M-peN" id="SaT-aI-4qg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+</document>
