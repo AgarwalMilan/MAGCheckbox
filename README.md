@@ -1,5 +1,5 @@
 # MAGCheckbox
-[![CocoaPods](https://img.shields.io/cocoapods/v/MAGCheckBox.svg)]() 
+[![CocoaPods](https://img.shields.io/cocoapods/v/MAGCheckbox.svg)]() 
 [![LICENSE](https://img.shields.io/badge/License-MIT-brightgreen.svg)]()
 
 Custom circular checkbox button that can be quickly integrated from Storyboard without writing any extra code.
